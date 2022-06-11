@@ -1,0 +1,12 @@
+# ignore archive -> data folder (different between local and vm)
+archive
+
+#ignore the storage that keeps data in binary files for federated learning (without spilling!)
+part_windows_folder
+
+#storage for FL loss graphs
+FederatedLoss
+
+#storage for preprocessed FL participant data
+preprocessed_folder
+
